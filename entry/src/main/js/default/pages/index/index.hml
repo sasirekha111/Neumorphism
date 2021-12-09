@@ -1,0 +1,63 @@
+<element name='neualert' src='../../common/neumorph_alert/alert.hml'></element>
+<element name='neuavatar' src='../../common/neumorph_avatar/avatar.hml'></element>
+<element name='neubutton' src='../../common/neumorph_button/button.hml'></element>
+<element name='neubuttons' src='../../common/neumorph_buttons/buttons.hml'></element>
+<element name='neucard' src='../../common/neumorph_card/card.hml'></element>
+<element name='neucheckbox' src='../../common/neumorph_checkbox/checkbox.hml'></element>
+<element name='neudropdown' src='../../common/neumorph_dropdown/dropdown.hml'></element>
+<element name='neuform' src='../../common/neumorph_form/form.hml'></element>
+<element name='neuicon' src='../../common/neumorph_icon/icon.hml'></element>
+<element name='neuinput' src='../../common/neumorph_input/input.hml'></element>
+<element name='neulabel' src='../../common/neumorph_label/label.hml'></element>
+<element name='neunavbar' src='../../common/neumorph_navbar/navbar.hml'></element>
+<element name='neupagination' src='../../common/neumorph_pagination/pagination.hml'></element>
+<element name='neuprogress' src='../../common/neumorph_progress/progress.hml'></element>
+<element name='neuradio' src='../../common/neumorph_radio/radio.hml'></element>
+<element name='neuswitcher' src='../../common/neumorph_switcher/switcher.hml'></element>
+<element name='neutextarea' src='../../common/neumorph_textarea/textarea.hml'></element>
+
+<div class="container">
+    <text class="title">
+        Neumorphism
+    </text>
+    <neualert text="Alert !" icon="common/neumorph_icons/heart.png"></neualert>
+    <neuavatar icon="common/neumorph_icons/user.png"></neuavatar>
+    <neubutton text="Button" icon="common/neumorph_icons/heart.png"></neubutton>
+    <neubuttons>
+        <text slot="first">Left</text>
+        <text slot="second">Right</text>
+    </neubuttons>
+    <neucard image="common/placeholder.png"></neucard>
+    <neucheckbox></neucheckbox>
+    <neudropdown title="Dropdown" items="">
+        <option value="Item 1">Item 1</option>
+        <option value="Item 2">Item 2</option>
+        <option value="Item 3">Item 3</option>
+        <option value="Item 3">Item 3</option>
+        <option value="Item 3">Item 3</option>
+    </neudropdown>
+    <neuform>
+        <neuinput text="Email" icon="common/neumorph_icons/user.png"></neuinput>
+        <neuinput text="Password" icon=""></neuinput>
+        <neubutton text="Submit" icon=""></neubutton>
+    </neuform>
+    <neuicon icon="common/neumorph_icons/user.png"></neuicon>
+    <neuinput text="Input" icon="common/neumorph_icons/user.png"></neuinput>
+    <neulabel text="Label" icon="common/neumorph_icons/heart.png"></neulabel>
+    <neunavbar>
+        <image slot="first" src="common/neumorph_icons/recent.png" style="width:20px; height: 20px;"></image>
+        <image slot="second" src="common/neumorph_icons/home.png" style="width:20px; height: 20px;"></image>
+        <image slot="third" src="common/neumorph_icons/return.png" style="width:20px; height: 20px;"></image>
+    </neunavbar>
+    <neupagination>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+    </neupagination>
+    <neuprogress progress="10%"></neuprogress>
+    <neuradio></neuradio>
+    <neuswitcher></neuswitcher>
+    <neutextarea placeholder="Enter text here !" ></neutextarea>
+</div>

@@ -1,0 +1,8 @@
+<div class="neumorph_container"  show="{{visible}}">
+    <div class="neumorph_alert">
+        <image if="{{icon}}" class="icon" src="{{icon}}"></image>
+        <image class="icon" src="common/neumorph_icons/heart.png" else></image>
+        <text> {{text}} </text>
+        <image class="close" src="common/neumorph_icons/close.png" onclick="toggleShow"></image>
+    </div>
+</div>

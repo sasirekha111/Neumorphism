@@ -1,0 +1,13 @@
+<div class="neumorph_container">
+    <div class="neumorph_navbar">
+        <div class="slot">
+            <slot name="first"></slot>
+        </div>
+        <div class="slot">
+            <slot name="second"></slot>
+        </div>
+        <div class="slot">
+            <slot name="third"></slot>
+        </div>
+    </div>
+</div>

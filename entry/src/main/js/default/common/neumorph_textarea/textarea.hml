@@ -1,0 +1,6 @@
+<div class="neumorph_container">
+    <div class="neumorph_textarea">
+        <textarea id="textarea" class="textarea" extend="true" placeholder="{{placeholder}}">
+        </textarea>
+    </div>
+</div>
