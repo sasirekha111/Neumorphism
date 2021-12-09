@@ -1,0 +1,7 @@
+<div class="neumorph_container">
+    <form onsubmit='onSubmit' onreset='onReset'>
+        <div class="neumorph_form">
+            <slot></slot>
+        </div>
+    </form>
+</div>

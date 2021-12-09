@@ -1,0 +1,34 @@
+
+.neumorph_container{
+    border-radius: 50px;
+    max-height: 100px;
+    max-width: 100px;
+    margin:20px;
+    box-shadow: 5px 5px 10px #bebebe;
+}
+
+.neumorph_frame{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: -5px -5px 10px #ffffff;
+}
+
+.neumorph_avatar{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(80px);
+    margin:10px;
+}
+
+.neumorph_avatar image{
+    height: 50%;
+    width: 50%;
+}

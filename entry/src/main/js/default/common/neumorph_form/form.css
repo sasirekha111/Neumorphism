@@ -1,0 +1,19 @@
+.neumorph_container{
+    border-radius: 10px;
+    max-height: 350px;
+    max-width: 600px;
+    margin:20px;
+    box-shadow: 5px 5px 10px #bebebe;
+}
+
+.neumorph_form{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: -5px -5px 10px #ffffff;
+    padding: 10px;
+}
