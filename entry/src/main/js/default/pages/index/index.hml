@@ -16,24 +16,25 @@
 <element name='neuswitcher' src='../../../../../../node_modules/neumorphism/neumorph_switcher/switcher.hml'></element>
 
 <div class="container">
-<!--    You can choose between following themes:-->
+<!--You can choose between following themes:-->
 
-<!--    white-->
-<!--    silver-->
-<!--    gray-->
-<!--    black-->
-<!--    red-->
-<!--    maroon-->
-<!--    yellow-->
-<!--    olive-->
-<!--    lime-->
-<!--    green-->
-<!--    aqua-->
-<!--    teal-->
-<!--    blue-->
-<!--    navy-->
-<!--    pink-->
-<!--    purple-->
+<!--white-->
+<!--silver-->
+<!--gray-->
+<!--black-->
+<!--red-->
+<!--maroon-->
+<!--yellow-->
+<!--olive-->
+<!--lime-->
+<!--green-->
+<!--aqua-->
+<!--teal-->
+<!--blue-->
+<!--navy-->
+<!--pink-->
+<!--purple-->
+
     <neumorphism theme="" color="">
         <text class="title">Neumorphism</text>
 
