@@ -1,8 +1,0 @@
-<div class="neumorph_container">
-    <div class="neumorph_switcher">
-        <div class="radio" onclick="toggleSwitch" >
-            <div class="left" show="{{left}}"></div>
-            <div class="right" show="{{right}}"></div>
-        </div>
-    </div>
-</div>

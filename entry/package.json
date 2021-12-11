@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "neumorphism": "file:../neumorphism"
+  }
+}

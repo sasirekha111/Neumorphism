@@ -1,8 +1,0 @@
-<div class="neumorph_container"  show="{{visible}}">
-    <div class="neumorph_label">
-
-        <image if="{{icon}}" class="icon" src="{{icon}}"></image>
-        <image class="icon" src="common/neumorph_icons/heart.png" else></image>
-        <text> {{text}} </text>
-    </div>
-</div>

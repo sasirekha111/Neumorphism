@@ -1,6 +1,0 @@
-<div class="neumorph_container">
-    <div class="neumorph_card">
-        <image if="{{image}}" class="image" src="{{image}}"></image>
-        <image class="image" src="common/placeholder.png" else></image>
-    </div>
-</div>

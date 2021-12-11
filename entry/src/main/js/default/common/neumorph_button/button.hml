@@ -1,6 +1,0 @@
-<div class="neumorph_container">
-    <div class="neumorph_button">
-        <image if="{{icon}}" class="icon" src="{{icon}}"></image>
-        <text> {{text}} </text>
-    </div>
-</div>
