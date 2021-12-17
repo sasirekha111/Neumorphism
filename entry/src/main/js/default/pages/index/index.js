@@ -1,9 +1,4 @@
 export default {
-    theme: {
-        r: 241,
-        g: 206,
-        b: 242,
-    },
     buttonClick(){
         console.log('Button clicked !');
     },
