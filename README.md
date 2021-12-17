@@ -2,8 +2,16 @@
 
 # Installation :
 
-1. Either copy the neumorphism folder in your repo. Or
+1. Copy the neumorphism folder in your repo.
 2. Add neumorphism as a dependency in your package.json file.
+
+```json
+{
+  "dependencies": {
+    "neumorphism": "file:../neumorphism"
+  }
+}
+```
 
 # Note :
 
