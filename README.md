@@ -320,3 +320,9 @@ Usage:
 ```html
 <neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
 ```
+
+# Reference:
+
+<a href="https://neumorphism.io/">neumorphism.io</a>
+
+<a href="https://ismail9k.github.io/neomorphism/">ismail9k.github.io/neomorphism</a>
