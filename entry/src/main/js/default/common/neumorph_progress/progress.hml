@@ -1,5 +1,0 @@
-<div class="neumorph_container">
-    <div class="neumorph_progress">
-        <div class="progress_fill" style="width: {{progress}};"></div>
-    </div>
-</div>

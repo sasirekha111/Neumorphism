@@ -1,63 +1,118 @@
-<element name='neualert' src='../../common/neumorph_alert/alert.hml'></element>
-<element name='neuavatar' src='../../common/neumorph_avatar/avatar.hml'></element>
-<element name='neubutton' src='../../common/neumorph_button/button.hml'></element>
-<element name='neubuttons' src='../../common/neumorph_buttons/buttons.hml'></element>
-<element name='neucard' src='../../common/neumorph_card/card.hml'></element>
-<element name='neucheckbox' src='../../common/neumorph_checkbox/checkbox.hml'></element>
-<element name='neudropdown' src='../../common/neumorph_dropdown/dropdown.hml'></element>
-<element name='neuform' src='../../common/neumorph_form/form.hml'></element>
-<element name='neuicon' src='../../common/neumorph_icon/icon.hml'></element>
-<element name='neuinput' src='../../common/neumorph_input/input.hml'></element>
-<element name='neulabel' src='../../common/neumorph_label/label.hml'></element>
-<element name='neunavbar' src='../../common/neumorph_navbar/navbar.hml'></element>
-<element name='neupagination' src='../../common/neumorph_pagination/pagination.hml'></element>
-<element name='neuprogress' src='../../common/neumorph_progress/progress.hml'></element>
-<element name='neuradio' src='../../common/neumorph_radio/radio.hml'></element>
-<element name='neuswitcher' src='../../common/neumorph_switcher/switcher.hml'></element>
-<element name='neutextarea' src='../../common/neumorph_textarea/textarea.hml'></element>
+<element name='neutheme' src='../../../../../../node_modules/neumorphism/theme/theme.hml'></element>
+<element name='neualert' src='../../../../../../node_modules/neumorphism/alert/alert.hml'></element>
+<element name='neuavatar' src='../../../../../../node_modules/neumorphism/avatar/avatar.hml'></element>
+<element name='neubutton' src='../../../../../../node_modules/neumorphism/button/button.hml'></element>
+<element name='neubuttons' src='../../../../../../node_modules/neumorphism/buttons/buttons.hml'></element>
+<element name='neucard' src='../../../../../../node_modules/neumorphism/card/card.hml'></element>
+<element name='neucheckbox' src='../../../../../../node_modules/neumorphism/checkbox/checkbox.hml'></element>
+<element name='neudropdown' src='../../../../../../node_modules/neumorphism/dropdown/dropdown.hml'></element>
+<element name='neuform' src='../../../../../../node_modules/neumorphism/form/form.hml'></element>
+<element name='neuinput' src='../../../../../../node_modules/neumorphism/input/input.hml'></element>
+<element name='neulabel' src='../../../../../../node_modules/neumorphism/label/label.hml'></element>
+<element name='neunavbar' src='../../../../../../node_modules/neumorphism/navbar/navbar.hml'></element>
+<element name='neupagination' src='../../../../../../node_modules/neumorphism/pagination/pagination.hml'></element>
+<element name='neuprogress' src='../../../../../../node_modules/neumorphism/progress/progress.hml'></element>
+<element name='neuradio' src='../../../../../../node_modules/neumorphism/radio/radio.hml'></element>
+<element name='neuswitcher' src='../../../../../../node_modules/neumorphism/switcher/switcher.hml'></element>
 
 <div class="container">
-    <text class="title">
-        Neumorphism
-    </text>
-    <neualert text="Alert !" icon="common/neumorph_icons/heart.png"></neualert>
-    <neuavatar icon="common/neumorph_icons/user.png"></neuavatar>
-    <neubutton text="Button" icon="common/neumorph_icons/heart.png"></neubutton>
-    <neubuttons>
-        <text slot="first">Left</text>
-        <text slot="second">Right</text>
-    </neubuttons>
-    <neucard image="common/placeholder.png"></neucard>
-    <neucheckbox></neucheckbox>
-    <neudropdown title="Dropdown" items="">
-        <option value="Item 1">Item 1</option>
-        <option value="Item 2">Item 2</option>
-        <option value="Item 3">Item 3</option>
-        <option value="Item 3">Item 3</option>
-        <option value="Item 3">Item 3</option>
-    </neudropdown>
-    <neuform>
-        <neuinput text="Email" icon="common/neumorph_icons/user.png"></neuinput>
-        <neuinput text="Password" icon=""></neuinput>
-        <neubutton text="Submit" icon=""></neubutton>
-    </neuform>
-    <neuicon icon="common/neumorph_icons/user.png"></neuicon>
-    <neuinput text="Input" icon="common/neumorph_icons/user.png"></neuinput>
-    <neulabel text="Label" icon="common/neumorph_icons/heart.png"></neulabel>
-    <neunavbar>
-        <image slot="first" src="common/neumorph_icons/recent.png" style="width:20px; height: 20px;"></image>
-        <image slot="second" src="common/neumorph_icons/home.png" style="width:20px; height: 20px;"></image>
-        <image slot="third" src="common/neumorph_icons/return.png" style="width:20px; height: 20px;"></image>
-    </neunavbar>
-    <neupagination>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-    </neupagination>
-    <neuprogress progress="10%"></neuprogress>
-    <neuradio></neuradio>
-    <neuswitcher></neuswitcher>
-    <neutextarea placeholder="Enter text here !" ></neutextarea>
-</div>
+<!--You can choose between following themes:-->
+
+<!--white-->
+<!--silver-->
+<!--gray-->
+<!--black-->
+<!--red-->
+<!--maroon-->
+<!--yellow-->
+<!--olive-->
+<!--lime-->
+<!--green-->
+<!--aqua-->
+<!--teal-->
+<!--blue-->
+<!--navy-->
+<!--pink-->
+<!--purple-->
+
+    <neutheme class="theme" theme="" color="">
+        <text class="title">Neumorphism</text>
+
+        <neualert icon="common/icons/heart.png" width="300px" height="60px" border="40px" >
+            <text>Alert !</text>
+        </neualert>
+
+        <neuavatar icon="common/icons/user.png" width="100px" height="100px" border="50px"></neuavatar>
+
+        <neubutton icon="common/icons/heart.png" width="250px" height="60px" border="50px" onclick="buttonClick">
+            <text>Button</text>
+        </neubutton>
+
+        <neubuttons  width="250px" height="60px" border="50px">
+            <button slot="first">Left</button>
+            <button slot="second">Right</button>
+        </neubuttons>
+
+        <neucheckbox color="" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
+
+        <neudropdown width="200px" height="50px" border="10px" @change-event="dropdownSelect">
+            <select @change="dropdownSelect">
+                <option value="Item 1">Item 1</option>
+                <option value="Item 2">Item 2</option>
+                <option value="Item 3">Item 3</option>
+                <option value="Item 4">Item 4</option>
+                <option value="Item 5" selected="true">Item 5</option>
+            </select>
+        </neudropdown>
+
+        <neuform width="350px" height="300px" border="20px">
+            <form onsubmit='onSubmit' onreset='onReset'>
+                <neuinput icon="common/icons/user.png" border="30px">
+                    <input type="email" maxlength="20" placeholder="Email" ></input>
+                </neuinput>
+                <neuinput icon="" border="20px">
+                    <input type="password" maxlength="20" placeholder="Password" ></input>
+                </neuinput>
+                <div>
+                    <neubutton icon="" width="150px" border="20px">
+                        <input type='submit' style="border-radius:20px;">Submit</input>
+                    </neubutton>
+                    <neubutton icon="" width="150px" border="20px">
+                        <input type='reset' style="border-radius:20px;">Reset</input>
+                    </neubutton>
+                </div>
+            </form>
+        </neuform>
+
+        <neuinput icon="common/icons/user.png" width="300px" height="50px" border="50px" >
+            <input type="text" maxlength="20" placeholder="Input" ></input>
+        </neuinput>
+
+        <neulabel text="Label" icon="common/icons/heart.png" width="200px" height="50px" border="50px" ></neulabel>
+
+        <neunavbar  width="300px" height="50px" border="50px" @right-event="buttonClick" @middle-event="buttonClick" @left-event="buttonClick">
+            <image slot="first" src="common/icons/recent.png" style="width:20px; height: 20px;" ></image>
+            <image slot="second" src="common/icons/home.png" style="width:20px; height: 20px;" ></image>
+            <image slot="third" src="common/icons/return.png" style="width:20px; height: 20px;" ></image>
+        </neunavbar>
+
+        <neupagination color="" width="300px" height="50px" border="50px"  @previous-event="previousEvent" @next-event="nextEvent">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+        </neupagination>
+
+        <neuprogress progress="80%" width="300px" color="" height="20px" border="50px"></neuprogress>
+
+        <neuradio width="50px" color="" height="50px" border="50px" checked="true" @check-event="radioClick"></neuradio>
+
+        <neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
+
+        <neucard width="300px" height="200px" border="10px" >
+            <image src="common/placeholder.png" ></image>
+        </neucard>
+
+    </neutheme>
+   </div>

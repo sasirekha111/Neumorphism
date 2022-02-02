@@ -1,6 +1,0 @@
-<div class="neumorph_container"  show="{{visible}}">
-    <div class="neumorph_input">
-        <image if="{{icon}}" class="icon" src="{{icon}}"></image>
-        <input placeholder="{{text}}"></input>
-    </div>
-</div>

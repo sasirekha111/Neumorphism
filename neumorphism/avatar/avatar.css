@@ -1,0 +1,29 @@
+@import '../theme/theme.css';
+
+.neumorph_container{
+    height: 100px;
+    width: 100px;
+    margin:20px;
+}
+
+.neumorph_frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.neumorph_avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin:10px;
+}
+
+.neumorph_avatar image{
+    height: 50%;
+    width: 50%;
+}

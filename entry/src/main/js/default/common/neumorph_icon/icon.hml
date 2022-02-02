@@ -1,6 +1,0 @@
-<div class="neumorph_container">
-    <div class="neumorph_icon">
-        <image if="{{icon}}" class="icon" src="{{icon}}"></image>
-        <image class="icon" src="common/neumorph_icons/user.png" else></image>
-    </div>
-</div>

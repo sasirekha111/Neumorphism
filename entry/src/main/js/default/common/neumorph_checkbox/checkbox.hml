@@ -1,7 +1,0 @@
-<div class="neumorph_container">
-    <div class="neumorph_checkbox">
-        <div class="checkbox" onclick="toggleShow" >
-            <div class="tick" show="{{visible}}"></div>
-        </div>
-    </div>
-</div>
