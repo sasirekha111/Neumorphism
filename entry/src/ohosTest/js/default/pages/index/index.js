@@ -2,7 +2,7 @@ import file from '@system.file'
 import app from '@system.app'
 import device from '@system.device'
 import router from '@system.router'
-import {Core, ExpectExtend, ReportExtend, InstrumentLog} from 'deccjsunit/index'
+import {Core, Constant, ExpectExtend, ReportExtend, InstrumentLog} from 'deccjsunit/index'
 
 export default {
     data: {
@@ -19,7 +19,8 @@ export default {
         })
         const reportExtend = new ReportExtend(file)
         const instrumentLog = new InstrumentLog({
-            'id': 'report'
+            'id': 'report',
+            'version': '1.0.3'
         })
         core.addService('expect', expectExtend)
         core.addService('report', reportExtend)
