@@ -1,10 +1,10 @@
-# Neumorphism
+# Neumorphism for Harmony OS
 
 # Installation :
 
 Install using npm inside pages directory
 
-```npm init```
+```npm init -y```
 
 ```npm i hmos-neumorphism ```
 
@@ -19,6 +19,27 @@ button, input{
     background-color:transparent;
     text-color: black;
 }
+```
+
+# Import all components at once
+
+```html
+<element name='neutheme' src='../node_modules/hmos-neumorphism/theme/theme.hml'></element>
+<element name='neualert' src='../node_modules/hmos-neumorphism/alert/alert.hml'></element>
+<element name='neuavatar' src='../node_modules/hmos-neumorphism/avatar/avatar.hml'></element>
+<element name='neubutton' src='../node_modules/hmos-neumorphism/button/button.hml'></element>
+<element name='neubuttons' src='../node_modules/hmos-neumorphism/buttons/buttons.hml'></element>
+<element name='neucard' src='../node_modules/hmos-neumorphism/card/card.hml'></element>
+<element name='neucheckbox' src='../node_modules/hmos-neumorphism/checkbox/checkbox.hml'></element>
+<element name='neudropdown' src='../node_modules/hmos-neumorphism/dropdown/dropdown.hml'></element>
+<element name='neuform' src='../node_modules/hmos-neumorphism/form/form.hml'></element>
+<element name='neuinput' src='../node_modules/hmos-neumorphism/input/input.hml'></element>
+<element name='neulabel' src='../node_modules/hmos-neumorphism/label/label.hml'></element>
+<element name='neunavbar' src='../node_modules/hmos-neumorphism/navbar/navbar.hml'></element>
+<element name='neupagination' src='../node_modules/hmos-neumorphism/pagination/pagination.hml'></element>
+<element name='neuprogress' src='../node_modules/hmos-neumorphism/progress/progress.hml'></element>
+<element name='neuradio' src='../node_modules/hmos-neumorphism/radio/radio.hml'></element>
+<element name='neuswitcher' src='../node_modules/hmos-neumorphism/switcher/switcher.hml'></element>
 ```
 
 # Theme
@@ -56,7 +77,7 @@ Usage:
 <!--pink-->
 <!--purple-->
 
-<neutheme theme="silver" color="black">
+<neutheme theme="silver" text="black">
 </neutheme>
 ```
 
@@ -101,7 +122,7 @@ Import:
 
 Usage:
 ```html
-<neubutton icon="common/icons/heart.png" width="250px" height="60px" border="50px" onclick="buttonClick">
+<neubutton icon="common/icons/heart.png" width="250px" height="60px" border="50px" @button-event="buttonClick">
   <text>Button</text>
 </neubutton>
 ```
@@ -118,8 +139,8 @@ Import:
 Usage:
 ```html
 <neubuttons  width="250px" height="60px" border="50px">
-  <button slot="first">Left</button>
-  <button slot="second">Right</button>
+  <button slot="first" onclick="buttonLeftClick">Left</button>
+  <button slot="second" onclick="buttonRightClick">Right</button>
 </neubuttons>
 ```
 
@@ -186,23 +207,17 @@ Import:
 
 Usage:
 ```html
-<neuform width="350px" height="300px" border="20px">
-    <form onsubmit='onSubmit' onreset='onReset'>
-      <neuinput icon="common/icons/user.png" border="30px">
-        <input type="email" maxlength="20" placeholder="Email" ></input>
-      </neuinput>
-      <neuinput icon="" border="20px">
-        <input type="password" maxlength="20" placeholder="Password" ></input>
-      </neuinput>
-      <div>
-        <neubutton icon="" width="150px" border="20px">
-          <input type='submit' style="border-radius:20px;">Submit</input>
-        </neubutton>
-        <neubutton icon="" width="150px" border="20px">
-          <input type='reset' style="border-radius:20px;">Reset</input>
-        </neubutton>
-    </div>
-  </form>
+<neuform width="350px" height="300px" border="20px" @submit-event="buttonClick" @reset-event="buttonClick">
+ <neuinput icon="common/icons/user.png" type="email" maxlength="20" placeholder="Email" border="30px"></neuinput>
+ <neuinput icon="" type="password" maxlength="20" placeholder="Password" border="20px"></neuinput>
+ <div>
+  <neubutton icon="" width="150px" border="20px">
+   <input type='submit' style="border-radius:20px;">Submit</input>
+  </neubutton>
+  <neubutton icon="" width="150px" border="20px">
+   <input type='reset' style="border-radius:20px;">Reset</input>
+  </neubutton>
+ </div>
 </neuform>
 ```
 
@@ -217,9 +232,7 @@ Import:
 
 Usage:
 ```html
-<neuinput icon="common/icons/user.png" width="300px" height="50px" border="50px" >
-  <input type="text" maxlength="20" placeholder="Input" ></input>
-</neuinput>
+<neuinput icon="common/icons/user.png" type="text" maxlength="20" placeholder="Input" width="300px" height="50px" border="50px" ></neuinput>
 ```
 
 # Label
