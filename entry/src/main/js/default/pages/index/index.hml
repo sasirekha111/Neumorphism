@@ -14,6 +14,7 @@
 <element name='neuprogress' src='../node_modules/hmos-neumorphism/progress/progress.hml'></element>
 <element name='neuradio' src='../node_modules/hmos-neumorphism/radio/radio.hml'></element>
 <element name='neuswitcher' src='../node_modules/hmos-neumorphism/switcher/switcher.hml'></element>
+<element name='neucarousel' src='../node_modules/hmos-neumorphism/carousel/carousel.hml'></element>
 
 <div class="container">
 <!--You can choose between following themes:-->
@@ -91,6 +92,12 @@
         <neucard width="300px" height="200px" border="10px" >
             <image src="common/placeholder.png" ></image>
         </neucard>
+
+        <neucarousel width="300px" height="200px" color="black" border="10px" index="0" indicator="true" loop="true">
+            <image src="common/placeholder.png" ></image>
+            <image src="common/placeholder.png" ></image>
+            <image src="common/placeholder.png" ></image>
+        </neucarousel>
 
     </neutheme>
 </div>

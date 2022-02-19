@@ -40,6 +40,7 @@ button, input{
 <element name='neuprogress' src='../node_modules/hmos-neumorphism/progress/progress.hml'></element>
 <element name='neuradio' src='../node_modules/hmos-neumorphism/radio/radio.hml'></element>
 <element name='neuswitcher' src='../node_modules/hmos-neumorphism/switcher/switcher.hml'></element>
+<element name='neucarousel' src='../node_modules/hmos-neumorphism/carousel/carousel.hml'></element>
 ```
 
 # Theme
@@ -327,6 +328,24 @@ Import:
 Usage:
 ```html
 <neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
+```
+
+# Carousel
+
+<img src="sample_images/carousel.png" width="" height="">
+
+Import:
+```html
+<element name='neucarousel' src='../node_modules/hmos-neumorphism/carousel/carousel.hml'></element>
+```
+
+Usage:
+```html
+<neucarousel width="300px" height="200px" color="black" border="10px" index="0" indicator="true" loop="true">
+            <image src="common/placeholder.png" ></image>
+            <image src="common/placeholder.png" ></image>
+            <image src="common/placeholder.png" ></image>
+        </neucarousel>
 ```
 
 # Reference:
