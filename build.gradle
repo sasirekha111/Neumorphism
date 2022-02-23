@@ -18,7 +18,7 @@ buildscript {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.huawei.ohos:hap:3.0.3.4'
@@ -35,7 +35,7 @@ allprojects {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-        jcenter()
+        mavenCentral()
     }
 }
 
