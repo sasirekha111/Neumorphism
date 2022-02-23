@@ -32,6 +32,7 @@ jobs:
       - name: run ESLint
         run: npm init @eslint/config
       - run: ./node_modules/.bin/eslint .
+        uses: applibgroup/HarmonyOsSdk@1.7.2
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with: 
