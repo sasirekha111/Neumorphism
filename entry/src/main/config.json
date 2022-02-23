@@ -36,7 +36,6 @@
             ]
           }
         ],
-        "visible": true,
         "name": "com.cyb0rg.neumorphism.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
