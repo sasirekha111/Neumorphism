@@ -1,4 +1,4 @@
-# Neumorphism for Harmony OS
+# Neumorphism for HarmonyOS
 
 # Installation :
 
