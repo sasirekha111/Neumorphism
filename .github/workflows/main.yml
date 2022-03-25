@@ -24,8 +24,6 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: npm install
-      - run: npm run build --if-present
-      - run: npm install eslint --global
       - id: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
