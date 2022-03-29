@@ -24,7 +24,6 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: npm install
-        
       - id: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
